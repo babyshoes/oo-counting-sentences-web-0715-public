@@ -3,6 +3,9 @@
 
 class String
   def count_sentences
-    # code goes here
+    arr = self.split(/[\.|\?|\!]+/)
+    arr.count
+
   end
 end
+
